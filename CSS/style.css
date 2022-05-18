@@ -1,0 +1,33 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0 ;
+
+}
+/* class selection */
+.pizza{
+    border: 1px solid black;
+    width: 25%;
+    color: black;
+    padding: 2%;
+  
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* ID selection */
+#view{
+ float: right;
+}
+/* element selection */
+img{
+    width: 100%;
+}
+/* Group selection */
+.pizza p{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
